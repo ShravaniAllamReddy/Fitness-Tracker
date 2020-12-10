@@ -24,6 +24,9 @@ router.get("/api/workouts/range", (req, res) => {
 
 
 router.post("/api/workouts", ({ body }, res) => {
+    // const workout =new Workout(body);
+    // workout.totalDuration();
+    // console.log( workout.totalDuration());
     Workout.create(body)
         .then(dbWorkout => {
             res.json(dbWorkout);
