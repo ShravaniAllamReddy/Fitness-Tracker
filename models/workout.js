@@ -12,16 +12,12 @@ const workoutSchema = new Schema({
     type: Array
   },
 
-  // totalduration: {
-  //   type: Number,
-  // } 
+  totalduration: {
+    type: Number,
+    default : 0
+  } 
 });
 
-// workoutSchema.methods.totalDuration = function () {
-//    this.totalduration = `${this.exercises.duration}`;
-//    console.log(this.totalduration);
-//    return this.totalduration;
-// }
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
