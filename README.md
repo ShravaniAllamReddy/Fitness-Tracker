@@ -15,11 +15,11 @@ When you load the page, you should be able to create a new workout or ontinue wi
 
  As a User,you should be able to :
 
-  * Add exercises to a previous workout plan.
+   * Add exercises to a previous workout plan.
 
-  * Add new exercises to a new workout plan.
+   * Add new exercises to a new workout plan.
 
-  * View the combined weight of multiple exercises on the `stats` page.
+   * View the combined weight of multiple exercises on the `stats` page.
 
 * HTML routes:
 
